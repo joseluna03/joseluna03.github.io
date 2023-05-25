@@ -8,6 +8,10 @@
     <title>Encriptador de texto</title>
     <link rel="stylesheet" href="./sources/style/reset.css">
     <link rel="stylesheet" href="./sources/style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,8 +30,14 @@
             <button class="boton-desencriptar">desencriptar</button>
         </section>
         <section class="mensaje">
-            <p>mensaje</p>
-            <button>copiar</button>
+            <p class="mensaje-procesado"></p>
+            <div class="ningun-mensaje">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        
+
+            <button class="boton-copiar">copiar</button>
         </section>
     </main>
 
